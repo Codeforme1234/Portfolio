@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.leftt{
+    background-color: rgb(251, 251, 75);
+    width: 30%;
+    height: 100%;
+    position:absolute;
+    animation: animatee 1.3s infinite ease-in-out;
+}
+
+@keyframes animatee{
+    0%,100%{
+        left: -160px;
+    }
+    50%{
+        left: 0px;
+    }
+    
+}
+@keyframes animatee3{
+    0%{
+        left: -160px;
+    }
+    100%{
+        left: 0px;
+    }
+    
+}
+@keyframes animatee2{
+    0%{
+        top:30%;
+
+    }
+   
+    100%{
+        top: 10%;
+    }
+
+}
+.inside{
+    width: 90%;
+    height: 86%;
+    background-color: #fff;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    border: 10px solid black;
+    z-index: 2;
+    overflow: hidden;
+}
+.inside_in{
+    z-index: -1;
+    background-color: rgb(251, 251, 75);
+    width: 15%;
+    height: 100%;
+    position:absolute;
+    
+    animation: animatee3 1s;
+
+}
+.cylinder{
+    width: 25%;
+    height: 80%;
+    z-index: 2;
+    position: relative;
+    left: 2%;
+    top: 10%;
+    overflow: hidden;
+    animation-delay: 1s;
+    animation: animatee2 1s ;
+
+    
+    
+    
+}
+.imgg{
+    width: 100%;
+    height: 100%;
+    /* animation-delay: .5s;
+    animation: animatee2 1s infinite; */
+    
+}
