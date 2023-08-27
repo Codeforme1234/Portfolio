@@ -61,16 +61,16 @@ body{
 .inside_in{
     z-index: -1;
     background-color: rgb(251, 251, 75);
-    width: 15%;
+    width: 19%;
     height: 100%;
     position:absolute;
     
-    animation: animatee3 1s;
+    animation: animatee3 3s;
 
 }
 .cylinder{
-    width: 25%;
-    height: 80%;
+    width: 28%;
+    height: 83%;
     position: relative;
     left: 2%;
     top: 10%;
@@ -128,6 +128,8 @@ body{
     animation: animatee4 1.3s;
  }
  .texts2{
+    font-size: large;
+    font-weight: bold;
     position: relative;
     animation: animatee4 1.3s;
     font-weight: 600;
@@ -136,9 +138,8 @@ body{
  }
  .texts3{
     position: relative;
-
     max-width: 130px;
-    overflow: hidden;
+    /* overflow: hidden; */
     animation: animatee4 1.3s;
 
  }
@@ -152,3 +153,8 @@ body{
     }
  }
 
+ .highlight{
+    display: inline;
+    background-color:  rgb(250, 250, 168);
+    color: #000;
+ }
